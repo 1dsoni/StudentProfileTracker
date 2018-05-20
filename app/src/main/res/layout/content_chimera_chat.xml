@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.projects.diwanshusoni.studentprofiletracker.Activities.ChimeraChatActivity"
+    tools:showIn="@layout/activity_chimera_chat">
+
+
+
+
+    <RelativeLayout
+        android:padding="@dimen/def_padding"
+        android:layout_gravity="bottom|end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ListView
+            android:smoothScrollbar="true"
+            android:id="@+id/answer_grid"
+            android:transcriptMode="alwaysScroll"
+            android:stackFromBottom="true"
+            android:numColumns="1"
+            android:layout_above="@+id/fab"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/def_padding"
+            app:fabSize="normal"
+            android:src="@drawable/ic_send_black_24dp"/>
+
+        <EditText
+            android:id="@+id/et_query"
+            android:layout_alignTop="@id/fab"
+            android:textColorHint="@color/def_hint_text_color"
+            android:textColor="@color/def_text_color"
+            android:padding="@dimen/def_padding"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/fab"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

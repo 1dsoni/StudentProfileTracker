@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projects.diwanshusoni.studentprofiletracker.Activities.StudentProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/iv_student_pic_student_profile_id"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/iv_student_pic_student_profile_id"
+                    android:visibility="gone"
+                    android:id="@+id/student_name_layout"
+                    android:padding="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:weightSum="2">
+                    <TextView
+                        android:id="@+id/name_text"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Name"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/name_student"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Student Name"
+                        android:textSize="15sp"
+                        android:gravity="right"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout><LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/student_name_layout"
+                    android:visibility="gone"
+                    android:id="@+id/student_email_layout"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:weightSum="2">
+                    <TextView
+                        android:id="@+id/email_text"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="E-mail"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/email_student"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Student Name"
+                        android:textSize="15sp"
+                        android:gravity="right"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout><LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/student_email_layout"
+                    android:visibility="gone"
+                    android:id="@+id/student_rollno_layout"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:weightSum="2">
+                    <TextView
+                        android:id="@+id/rollno_text"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Roll No"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/rollno_student"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Student Name"
+                        android:textSize="15sp"
+                        android:gravity="right"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout><LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/student_rollno_layout"
+                    android:visibility="gone"
+                    android:id="@+id/student_branch_layout"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:weightSum="2">
+                    <TextView
+                        android:id="@+id/branch_text"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Branch"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/branch_student"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Student Name"
+                        android:textSize="15sp"
+                        android:gravity="right"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout><LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/student_branch_layout"
+                    android:visibility="gone"
+                    android:id="@+id/student_sem_layout"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:weightSum="2">
+                    <TextView
+                        android:id="@+id/sem_text"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Semester"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/sem_student"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Student Name"
+                        android:textSize="15sp"
+                        android:gravity="right"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout><LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/student_sem_layout"
+                    android:visibility="gone"
+                    android:id="@+id/student_contact_layout"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:weightSum="2">
+                    <TextView
+                        android:id="@+id/contact_text"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Contact No"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/contact_student"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Student Name"
+                        android:textSize="15sp"
+                        android:gravity="right"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout><LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/student_contact_layout"
+                    android:visibility="gone"
+                    android:id="@+id/student_address_layout"
+                    android:padding="10dp"
+                    android:layout_margin="5dp"
+                    android:weightSum="2">
+                    <TextView
+                        android:id="@+id/address_text"
+                        android:gravity="left"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Address"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:id="@+id/address_student"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:text="Student Name"
+                        android:textSize="15sp"
+                        android:gravity="right"
+                        android:textColor="#000"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <Button
+                    android:text="My Info"
+                    android:id="@+id/btn_myinfo_student_profile_id"
+                    android:layout_below="@id/iv_student_pic_student_profile_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:text="My Courses"
+                    android:id="@+id/btn_mycourses_student_profile_id"
+                    android:layout_below="@id/btn_myinfo_student_profile_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:text="Campus Notifications"
+                    android:id="@+id/btn_campusnotifications_student_profile_id"
+                    android:layout_below="@id/btn_mycourses_student_profile_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

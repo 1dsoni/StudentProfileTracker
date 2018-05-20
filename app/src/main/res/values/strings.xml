@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Campus Buddy</string>
+
+    <string name="tv_antiragging_note">Please fill emergency contact details</string>
+
+    <string name="btn_login_text">Login</string>
+    <string name="btn_register_text">Register</string>
+    <string name="btn_antiragging_text">Submit</string>
+    <string name="btn_antiragging_dashboard">Help</string>
+    <string name="btn_notifications_dashboard">College Updates</string>
+    <string name="btn_stuprofiletracker_dashboard">My profile</string>
+    <string name="btn_facultyconnect_dashboard">Faculty Connect</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="retype_password_hint">Retype Password</string>
+    <string name="mobilenumber_hint">Mobile Number</string>
+    <string name="username_hint">UserName</string>
+    <string name="college_hint">College</string>
+
+    <string name="antiragging_e1">Enter first emergency Number 1</string>
+    <string name="antiragging_e2">Enter first emergency Number 2</string>
+
+    <string name="title_activity_user_dashboard">UserDashboardActivity</string>
+    <string name="alert_exit_activity_user_dashboard">Are you sure you want to logout ?</string>
+    <string name="exittext_alert_activity_user_dashboard">logout</string>
+    <string name="canceltext_alert_activity_user_dashboard">Cancel</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_exit">Exit</string>
+    <string name="title_activity_chimera_chat">ChimeraChatActivity</string>
+    <string name="title_activity_record_audio">RecordAudioActivity</string>
+</resources>

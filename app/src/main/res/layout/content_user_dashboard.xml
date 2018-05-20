@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.projects.diwanshusoni.studentprofiletracker.Activities.UserDashboardActivity"
+    tools:showIn="@layout/app_bar_user_dashboard">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingLeft="16dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <RelativeLayout
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:background="@drawable/btn_border"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:src="@drawable/myprofile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:padding="4dp"
+                android:background="#a8000000"
+                android:gravity="center"
+                android:text="My Profile"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/b_studentprofile_dsh_id"
+                android:textAllCaps="false"
+                android:textSize="@dimen/def_text_size"
+                android:background="#00000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:background="@drawable/btn_border"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:src="@drawable/notificationpic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <TextView
+                android:padding="4dp"
+                android:background="#a8000000"
+                android:gravity="center"
+                android:text="Campus Updates"
+                android:textSize="15sp"
+                android:textColor="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/b_notifications_dsh_id"
+                android:textAllCaps="false"
+                android:textSize="@dimen/def_text_size"
+                android:background="#00000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <RelativeLayout
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:background="@drawable/btn_border"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/sos"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:padding="4dp"
+            android:background="#a8000000"
+            android:gravity="center"
+            android:text="S.O.S"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/b_ragging_dsh_id"
+            android:textAllCaps="false"
+            android:textSize="@dimen/def_text_size"
+            android:background="#00000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:background="@drawable/btn_border"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+        <ImageView
+            android:src="@drawable/facultyconnectbtnpic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <TextView
+            android:padding="4dp"
+            android:background="#a8000000"
+            android:gravity="center"
+            android:text="Faculty Connect"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/b_facultyconnent_dsh_id"
+                android:textAllCaps="false"
+                android:textSize="@dimen/def_text_size"
+                android:background="#00000000"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
